@@ -41,17 +41,13 @@ section {
 /* Media Queries */
 /* for phones */
 @media screen and (max-width: 599px) {
-    
+
     h1 {
-        font-size:x-large;
         padding: 10px;
     }
+
     section {
-        padding: 0 10px;
-    }
-    
-    h2 {
-        font-size: larger;
+        padding: 0 15px;
     }
 }
 
@@ -65,7 +61,7 @@ section {
     nav li {
         margin-right: 20px;
     }
-    
+
     main {
         display: grid;
         grid-template-columns: 1fr;
