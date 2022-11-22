@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    border: 1px solid #90ee90;
+}
+
+header {
+    background-color: #90ee90;
+    text-align: center;
+}
+
+nav {
+    background-color: black;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin: 0 10px;
+    text-align: left;
+}
+
+section {
+    border: 1px solid #90ee90;
+    padding: 0 10px;
+}
+
+
+
+
+/* Media Queries */
+/* for phones */
+@media screen and (max-width: 599px) {
+    
+    h1 {
+        font-size:x-large;
+        padding: 10px;
+    }
+    section {
+        padding: 0 10px;
+    }
+    
+    h2 {
+        font-size: larger;
+    }
+}
+
+/* For Tablets */
+@media screen and (min-width: 600px) and (max-width: 1200px) {
+
+    h1 {
+        padding: 20px;
+    }
+
+    nav li {
+        margin-right: 20px;
+    }
+    
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    section {
+        padding: 10px 40px;
+    }
+}
+
+
+/* For Laptop */
+@media screen and (min-width: 1201px) {
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    h1 {
+        padding: 30px;
+    }
+
+    nav li {
+        margin-right: 40px;
+    }
+
+    section {
+        padding: 10px 30px;
+    }
+}
