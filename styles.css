@@ -62,7 +62,7 @@ section {
     }
 
     nav ul {
-        padding-left: 45px;
+        padding-left: 15px;
     }
 
     nav li {
@@ -71,11 +71,11 @@ section {
 
     main {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
     section {
-        padding: 10px 40px;
+        padding: 10px 10px;
     }
 }
 
@@ -84,7 +84,7 @@ section {
 @media screen and (min-width: 1201px) {
 
     .container {
-        max-width: 1400px;
+        max-width: 1800px;
         margin: auto;
     }
 
